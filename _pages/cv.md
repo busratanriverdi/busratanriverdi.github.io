@@ -9,56 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
+[You can view a more detailed version of my CV here.](https://docs.google.com/document/d/1s_vZSrSwSo0xHxydI3zV18izKrJ4vi_W/edit?usp=sharing&ouid=104875499393245640958&rtpof=true&sd=true)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Cognitive Neuroscience, Temple University, 2024
+  * Concentration in Quantitative Methods
+* M.A. in Cognitive Psychology, Koç University, 2017
+* B.A. in Psychology, Istanbul Şehir University, 2015
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Current: Data Analyst 
+  * Department of Biostatistics, Epidemiology, and Informatics, University of Pennsylvania
+  * Duties includes: Creating and managing multimodal data analysis pipelines.
+  * Supervisors: Russel T. Shinohara, Ph.D. and Quy Cao, Ph.D.
+  * Active Collaborators: Kristin Lin, Ph.D. and Desmond Oathes, Ph.D.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2020 - Fall 2024: Graduate Research Scientist
+  * Psychology and Neuroscience Department, Temple University
+  * Supervisors: Ingrid R. Olson, Ph.D., Jason M. Chein, Ph.D., & Vishnu P. Murty, Ph.D.
+  * Ph.D. Dissertation: Characterizing Threat's Influence in Post-Encoding Reactivation and Its Downstream Consequences on Memory Representations
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Fall 2015 - Spring 2017: Graduate Research and Teaching Assistant
+  * Psychology Department, Koç University
+  * Supervisor: Sami Gülgöz, Ph.D.
+  * Thesis: The Effect of Interference in Remote vs Recent Autobiographical Memories
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Bash, HTML, MATLAB, R & RStudio, Python
+* Software
+  * FSL, fMRIPrep, Psychtoolbox, SPSS
 
-Publications
+Service
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Ad-Hoc Reviewer: Plos ONE
