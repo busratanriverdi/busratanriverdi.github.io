@@ -10,6 +10,6 @@ These findings suggest that disrupted hippocampal responses may serve as a bioma
 
 <!--![Main Figure](/files/project_figures/Tanriverdi_etal_jneuro_2022_mainfigure.png)  -->
 
-<img src="/files/project_figures/Tanriverdi_etal_jneuro_2022_mainfigure.png" alt="Main Figure" style="max-width: 300px; display: block; margin: 1em auto;">
+<img src="{{ site.baseurl }}/files/project_figures/Tanriverdi_etal_jneuro_2022_mainfigure.png" alt="Main Figure" style="max-width: 300px; display: block; margin: 1em auto;">
 
 [Download Paper](https://www.jneurosci.org/content/42/34/6593.abstract)
