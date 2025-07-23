@@ -1,14 +1,16 @@
 ---
 title: "How do we turn everyday experiences into long-term memories?"
-excerpt: "If you are interested in memory, chances are you have heard about memory consolidation, a process that helps preserve our memories in the long term. 
+paperurl: 'https://direct.mit.edu/jocn/article/35/9/1446/116524'
+collection: portfolio
+---
+
 One of the neural mechanisms supporting consolidation is neural replay, which is when the neural ensembles formed during initial learning are reactivated during rest or sleep. 
 Building up on the rodent and human replay literature, I developed a new analytical method that maps how distinct areas of the human brain concurrently reactivate specific memories. 
 In animal studies, this question is addressed using invasive techniques like direct neural recordings, which have shown that memory-related brain regions can replay the same information at the same time. 
 However, this kind of analysis has remained out of reach in human research due to the limitations of non-invasive methods. 
 I addressed this gap by creating a novel analytical approach that detects memory reactivation patterns in multiple brain regions simultaneously (co-reactivation), 
-at the level of individual memories. This allows us to track how different networks interact when a person recalls a specific event. 
+at the level of individual memories. This allows us to track how different networks interact when a person recalls a specific event.
 
-<br/><img src='/files/project_figures/Tanriverdi_etal_jocn_2023_forgetting.png'>"
-paperurl: 'https://direct.mit.edu/jocn/article/35/9/1446/116524'
-collection: portfolio
----
+<img src="Tanriverdi_etal_jocn_2023_forgetting.png" alt="Main Figure" style="max-width: 400px; display: block; margin: 1em auto;">
+
+[Download Paper]('https://direct.mit.edu/jocn/article/35/9/1446/116524')

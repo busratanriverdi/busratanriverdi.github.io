@@ -8,8 +8,6 @@ In this project, I investigated how trauma-exposed individuals respond to threat
 
 These findings suggest that disrupted hippocampal responses may serve as a biomarker for PTSD vulnerability, particularly in explaining the failure to distinguish between safety and threat. This impairment may lead individuals to generalize fear across safe and unsafe situations, increasing risk for chronic distress and maladaptive behavior.
 
-<!--![Main Figure](/files/project_figures/Tanriverdi_etal_jneuro_2022_mainfigure.png)  -->
-
-<img src="{{ site.baseurl }}/files/project_figures/Tanriverdi_etal_jneuro_2022_mainfigure.png" alt="Main Figure" style="max-width: 300px; display: block; margin: 1em auto;">
+<img src="Tanriverdi_etal_jneuro_2022_mainfigure.png" alt="Main Figure" style="max-width: 400px; display: block; margin: 1em auto;">
 
 [Download Paper](https://www.jneurosci.org/content/42/34/6593.abstract)
