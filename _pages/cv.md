@@ -34,7 +34,7 @@ Work experience
 * Fall 2015 - Spring 2017: Graduate Research and Teaching Assistant
   * Psychology Department, Koç University
   * Supervisor: Sami Gülgöz, Ph.D.
-  * Thesis: The Effect of Interference in Remote vs Recent Autobiographical Memories
+  * MA Thesis: The Effect of Interference in Remote vs Recent Autobiographical Memories
   
 Skills
 ======
