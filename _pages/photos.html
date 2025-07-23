@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Photos"
+permalink: /photos/
+---
+
+<h1>Art & Photography</h1>
+
+{% assign categories = site.data.photos | group_by: "category" %}
+
+{% for category in categories %}
+  <h2>{{ category.name }}</h2>
+  <div class="photo-gallery">
+    {% for item in category.items %}
+      <div class="photo-item">
+        <img src="{{ item.url | relative_url }}" alt="{{ item.alt | default: 'Artwork' }}" style="max-width: 400px;">
+        {% if item.note %}
+          <p class="photo-note">{{ item.note }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

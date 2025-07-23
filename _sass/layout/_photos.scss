@@ -1,0 +1,14 @@
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo-item {
+  flex: 1 1 300px;
+}
+
+.photo-note {
+  margin-bottom: 8px;
+  font-style: italic;
+}
