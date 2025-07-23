@@ -1,0 +1,17 @@
+.abstract-toggle {
+  cursor: pointer;
+  color: #2a7ae2;
+  font-weight: 500;
+  margin-bottom: 0.25em;
+}
+
+.abstract-toggle:hover {
+  text-decoration: underline;
+}
+
+.abstract-content {
+  display: none;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1em;
+}
