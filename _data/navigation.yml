@@ -8,26 +8,29 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Research"
+    url: /portfolio/
+ 
   - title: "Publications"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /files/BusraTanriverdi_CV.pdf
     
+#  - title: "Talks"
+#    url: /talks/    
+
+#  - title: "Teaching"
+#    url: /teaching/    
+         
+  - title: "Blog Posts"
+    url: /year-archive/
+
+  - title: "Photos"
+    url: /images/arts_photos/NYC_empirestate.HEIC
+
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+ # - title: "Guide"
+ #  url: /markdown/
