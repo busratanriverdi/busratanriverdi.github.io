@@ -20,12 +20,18 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
-      <div class="container">
+    <div id="main" role="main" class="layout--two-column">
+      {% if page.author_profile or layout.author_profile %}
+        <aside class="sidebar">
+          {% include author-profile.html %}
+        </aside>
+      {% endif %}
+    
+      <div class="cv-container cv-content">
         {{ content }}
       </div>
     </div>
-
+    
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}

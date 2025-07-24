@@ -1,27 +1,71 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can find the full list of my published work on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="pub-intro">You can find the full list of my published work on 
+    <a class="gs-link" href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
 
 <style>
-.abstract-toggle {
-  cursor: pointer;
-  color: #b45309;
-  font-weight: 500;
-}
-.abstract-content {
-  display: none;
-  margin-top: 0.5em;
-}
-</style>
+  .pub-intro {
+    font-size: 0.95rem;
+    color: #06091c;   /* Slate-700, clean and subtle */
+    margin-bottom: 1rem;
+  }
+
+  .gs-link {
+    color: #160797; /* Your nice burnt orange */
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .gs-link:hover {
+    text-decoration: underline;
+    color: #92400e; /* Slightly deeper orange on hover */
+  }
+
+  .abstract-toggle {
+    cursor: pointer;
+    color: #8b4c1c;
+    font-weight: 500;
+  }
+  .abstract-content {
+    display: none;
+    margin-top: 0.5em;
+    font-size: 0.8rem;  
+  }
+
+  .pub-title {
+    font-size: 1rem;   
+    font-weight: 500;    
+    color: #06091c;      
+    text-decoration: none;
+  }
+  
+  .pub-title:hover {
+    text-decoration: underline;
+    color: #030d24;     
+  }
+
+  .publication-entry p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .pub-meta {
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    color: #787b7def; /* optional slate gray */
+  }
+  </style>
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -43,10 +87,13 @@ document.addEventListener("DOMContentLoaded", function() {
   {% for post in group.items %}
     <div class="publication-entry">
       <p>
-        <strong><a href="{{ post.link | default: post.url }}">{{ post.title }}</a></strong><br/>
-        {{ post.authors }}. 
-        <em>{{ post.venue }}</em>{% if post.status %}, {{ post.status }}{% endif %}.
+        <strong><a class="pub-title" href="{{ post.link | default: post.url }}">{{ post.title }}</a></strong>
       </p>
+      
+      <p class="pub-meta">
+        {{ post.authors }}. <em>{{ post.venue }}</em>{% if post.status %}, {{ post.status }}{% endif %}.
+      </p>
+      
 
       {% if post.abstract %}
         <div class="abstract-toggle">[Summary]</div>

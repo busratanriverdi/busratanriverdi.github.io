@@ -1,18 +1,14 @@
 ---
 permalink: /
-title: "Welcome to my page!"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-My name is Büşra Tanriverdi, and I am a cognitive psychologist and neuroscientist, with an expertise in data science, experimental design, quantitative analysis, and data visualization across a variety of data types. 
+Welcome! I’m a Cognitive Neuroscientist and Data Analyst at [PennSIVE](https://dbei.med.upenn.edu/center-of-excellence/pennsive/) at Penn Medicine. My work bridges cognitive neuroscience and data science, leveraging electronic health, behavioral and MRI (structural, functional) data for research-driven solutions to improved and individualized patient care. 
 
-I am currently working as a data analyst at the Penn Statistics in Imaging and Visualization Center ([PennSIVE](https://dbei.med.upenn.edu/center-of-excellence/pennsive/)) at Perelman School of Medicine. 
+I earned my Ph.D. in Cognition and Neuroscience from Temple University, where I investigated the neural markers of memory encoding, consolidation, and retrieval, all of which ensures our ability to recall personal experiences in the long-term, especially those shaped by emotions and social interactions. 
 
-Prior to starting my current role, I have completed a Ph.D. in Cognition and Neuroscience at the Psychology Department at Temple University. During my Ph.D. I conducted several research projects exploring the neural mechanisms supporting episodic memory consolidation, with a particular interest in how negative experiences are remembered distinctly (see Projects for more on that). 
-
-During my 10+ year tenure as a researcher, I have conducted many behavioral and fMRI experiments, and analyzed survey, experiment and brain imaging data from hundreds of people, using various programming languages (R, MATLAB, Bash) as well as MRI analysis tools (FSL, fMRIPrep).
-
-When I am not busy working, you can find me playing with my cat, yapping with my friends over coffee or enjoying arts (see Photos if interested)! 
+With over a decade of research experience, I’ve developed strong skills in research design, problem-solving, and effective storytelling - skills I continue to apply and expand through collaborative, data-driven work.

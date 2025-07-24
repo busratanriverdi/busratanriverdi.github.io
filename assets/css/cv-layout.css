@@ -26,6 +26,31 @@
 .cv-container {
   max-width: 1000px;
   margin: 0 auto;
+  flex: 1;
+  max-width: 700px;
+}
+
+.layout--two-column {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem; /* Space between sidebar and content */
+}
+
+.sidebar {
+  flex: 0 0 250px;
+  min-width: 200px;
+}
+
+.cv-content {
+  font-size: 0.8rem !important;     /* Adjust smaller if needed */
+  line-height: 1.5 !important;
+}
+
+.cv-container h1,
+.cv-container h2,
+.cv-container h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Download links styling */
