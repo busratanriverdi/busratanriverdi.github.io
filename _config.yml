@@ -133,7 +133,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : # &twitter
 facebook:
   username               :
   app_id                 :
@@ -227,7 +227,7 @@ collections:
     permalink: /:collection/:path/
   cv:
     output: true
-    permalink: /cv/:path/
+    permalink: /:collection/:path/
   portfolio:
     output: true
   #  permalink: /:collection/:path/
@@ -293,7 +293,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
 
 # Sass/SCSS
 sass:
