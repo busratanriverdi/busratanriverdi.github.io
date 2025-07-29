@@ -1,6 +1,7 @@
 ---
+title: "Büşra Tanriverdi, Ph.D."
+layout: home
 permalink: /
-title: ""
 author_profile: true
 redirect_from: 
   - /about/
