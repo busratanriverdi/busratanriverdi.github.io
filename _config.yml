@@ -227,7 +227,7 @@ collections:
     permalink: /:collection/:path/
   cv:
     output: true
-    permalink: /:collection/:path/
+    permalink: /cv/:path/
   portfolio:
     output: true
   #  permalink: /:collection/:path/
@@ -316,6 +316,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-include-cache
 
 # Mimic GitHub Pages with --safe
 whitelist:
