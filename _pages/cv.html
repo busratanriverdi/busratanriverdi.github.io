@@ -1,0 +1,142 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="cv-intro">
+  You can view a more detailed version of my CV on 
+  <a class="cv-link" href="https://docs.google.com/document/d/1s_vZSrSwSo0xHxydI3zV18izKrJ4vi_W/edit?usp=sharing&ouid=104875499393245640958&rtpof=true&sd=true" target="_blank">this link</a>.
+</div>
+
+{% assign cv_sections = site.cv | sort: "order" %}
+<div class="cv-container cv-content">
+  ...
+</div>
+
+<style>
+/* Header nav */
+.cv-header-nav {
+  padding: 1rem 0;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.cv-header-nav .home-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #2a7ae2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.cv-header-nav .home-button:hover {
+  background-color: #1756a9;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 0 0 250px;
+  min-width: 200px;
+}
+
+/* Main container */
+.cv-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+/* Content styling */
+.cv-content {
+  font-size: 0.9rem !important;
+  line-height: 1.5;
+}
+
+/* Headings */
+.cv-container h1,
+.cv-container h2,
+.cv-container h3 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Two-column CV section */
+.cv-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 0.5rem;
+}
+
+.cv-left-column,
+.cv-right-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.cv-right-column {
+  padding-left: 1rem;
+}
+
+/* Download link section */
+.cv-download-links {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #f2f2f2;
+}
+  
+.cv-intro {
+  font-size: 0.95rem;
+  color: #06091c;
+  margin-bottom: 0.5rem;
+}
+
+.cv-link {
+  color: #160797;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cv-link:hover {
+  text-decoration: underline;
+  color: #92400e;
+}
+
+</style>
+
+{% assign cv_sections = site.cv | sort: "order" %}
+<div class="cv-container cv-content">
+  <div class="cv-columns">
+    <div class="cv-left-column">
+      {% for section in cv_sections %}
+        {% unless section.title == "CV_Right" %}
+          <div class="cv-section">
+            {{ section.content }}
+          </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
+
+    <div class="cv-right-column">
+      {% for section in cv_sections %}
+        {% if section.title == "CV_Right" %}
+          <div class="cv-section">
+            {{ section.content }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
