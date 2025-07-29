@@ -1,11 +1,8 @@
 ---
-title: "Büşra Tanriverdi, Ph.D."
-layout: home
-permalink: /
+layout: page
+title: "About"
+permalink: /about/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 Hi! I’m a Cognitive Neuroscientist and Data Analyst at [PennSIVE](https://dbei.med.upenn.edu/center-of-excellence/pennsive/) at Penn Medicine. My work bridges cognitive neuroscience and data science, leveraging electronic health, behavioral and MRI (structural, functional) data for research-driven solutions to improved and individualized patient care. 
