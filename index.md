@@ -1,3 +1,7 @@
 ---
-redirect_to: /about/
+layout: none
+permalink: /
 ---
+
+<meta http-equiv="refresh" content="0; url=/about/">
+<link rel="canonical" href="/about/">
