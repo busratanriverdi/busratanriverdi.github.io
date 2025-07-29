@@ -5,7 +5,12 @@ title: "Page Archive"
 author_profile: false
 ---
 
+{%- comment -%}
 {% include base_path %}
 {% for post in site.pages %}
-  {% include archive-single.html %}
+  {% unless post.url contains "page-archive" %}
+    {% include archive-single-cv.html %}
+  {% endunless %}
 {% endfor %}
+{%- endcomment -%}
+
