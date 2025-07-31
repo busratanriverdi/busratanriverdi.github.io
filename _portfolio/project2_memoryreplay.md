@@ -1,5 +1,5 @@
 ---
-title: "How do we turn everyday experiences into long-term memories?"
+title: "How does our brain remember repeated events?"
 collection: portfolio
 ---
 
