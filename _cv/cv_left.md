@@ -7,7 +7,7 @@ order: 1
 * *Ph.D* in Cognitive Neuroscience, Temple University, 2024
   * Concentration in Quantitative Methods
 * *M.A.* in Cognitive Psychology, Koç University, 2017
-* *B.A.* in Psychology, Istanbul Şehir University, 2015
+* *B.A.* in Psychology, İstanbul Şehir University, 2015
 
 
 ## Awards 
