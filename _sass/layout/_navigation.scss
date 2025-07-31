@@ -442,3 +442,36 @@
     }
   }
 }
+
+/* -----------------------------------------
+   Custom nav split: About me/Home left, others right
+-------------------------------------------- */
+.greedy-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--global-masthead-link-color);
+
+    &:hover {
+      color: var(--global-masthead-link-color-hover);
+    }
+  }
+}

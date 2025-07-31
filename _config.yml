@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "About me"
+title                    : "Büşra Tanriverdi, Ph.D."
 title_separator          : "-"
 name                     : &name "Büşra Tanriverdi, Ph.D."
 description              : &description "Research and Data Scientist"
@@ -29,7 +29,7 @@ author:
   location         : # "Philadelphia"
   employer         : "Perelman School of Medicine"
   uri              : # URL
-  email            : # "busra.tanriverdi@gmail.com" 
+  email            : "busra.tanriverdi@gmail.com" 
 
   # Academic websites
   academia         : # URL

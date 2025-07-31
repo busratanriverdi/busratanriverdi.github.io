@@ -7,8 +7,61 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .project-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+  }
+
+  .project-text {
+    flex: 2;
+    min-width: 300px;
+    font-size: 0.9rem; /* adjust for smaller text */
+    line-height: 1.6;
+    color: #06091c;
+  }
+
+  .project-text p {
+    margin-bottom: 1rem;
+  }
+
+  .project-image {
+    flex: 1;
+    min-width: 400px;
+  }
+
+  .project-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Optional: smaller link style */
+  .project-text a {
+    font-size: 0.9rem;
+    color: #007acc;
+  }
+
+  .project-text a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+  <article class="portfolio-entry">
+    <h2>{{ post.title }}</h2>
+    {{ post.content }}
+  </article>
 {% endfor %}
+
+<article class="project-block">
+  <h2>{{ post.title }}</h2>
+  <div class="project-content">
+    {{ post.content }}
+  </div>
+</article>
 
