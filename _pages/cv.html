@@ -125,7 +125,7 @@ author_profile: true
       {% for section in cv_sections %}
         {% unless section.title == "CV_Right" %}
           <div class="cv-section">
-            {{ section.content }}
+            {{ section.content | markdownify }}
           </div>
         {% endunless %}
       {% endfor %}
@@ -135,7 +135,7 @@ author_profile: true
       {% for section in cv_sections %}
         {% if section.title == "CV_Right" %}
           <div class="cv-section">
-            {{ section.content }}
+            {{ section.content | markdownify }}
           </div>
         {% endif %}
       {% endfor %}
