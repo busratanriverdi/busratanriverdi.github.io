@@ -1,6 +1,6 @@
 ---
 title: "Understanding Gaslighting: A Data-Driven Analysis of Themes, Features, and Effects on Subjective Memory"
-authors: "Camille Johnston, Büşra Tanriverdi, Holly Sullivan-Toole, Jamie Reilly, Thomas M Olino, & Johanna Jarcho"
+authors: "Camille Johnston, <strong>Büşra Tanriverdi</strong>, Holly Sullivan-Toole, Jamie Reilly, Thomas M Olino, & Johanna Jarcho"
 collection: publications
 category: manuscripts
 year: "2025"

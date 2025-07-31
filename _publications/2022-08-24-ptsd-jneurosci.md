@@ -1,6 +1,6 @@
 ---
 title: "Hippocampal Threat Reactivity Interacts with Physiological Arousal to Predict PTSD Symptoms"
-authors: "Büşra Tanriverdi, David F. Gregory, ... , Jennifer S Stevens, & Vishnu P. Murty"
+authors: "<strong>Büşra Tanriverdi</strong>, David F. Gregory, ... , Jennifer S Stevens, & Vishnu P. Murty"
 collection: publications
 category: manuscripts
 year: "2022"
