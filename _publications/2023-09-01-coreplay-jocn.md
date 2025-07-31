@@ -1,6 +1,6 @@
 ---
 title: "Awake hippocampal–cortical Co-reactivation is associated with forgetting"
-authors: "<strong>Büşra Tanriverdi</strong>, Emily T Cowan, Athanasia Metoki, Katie R Jobson, Vishnu P Murty, Jason M Chein, & Ingrid R Olson"
+authors: "<strong>Büşra Tanrıverdi</strong>, Emily T Cowan, Athanasia Metoki, Katie R Jobson, Vishnu P Murty, Jason M Chein, & Ingrid R Olson"
 collection: publications
 category: manuscripts
 year: "2023"

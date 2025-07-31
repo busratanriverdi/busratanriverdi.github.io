@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Büşra Tanriverdi, Ph.D."
+title                    : "Büşra Tanrıverdi, Ph.D."
 title_separator          : "-"
-name                     : &name "Büşra Tanriverdi, Ph.D."
+name                     : &name "Büşra Tanrıverdi, Ph.D."
 description              : &description "Research and Data Scientist"
 url                      : "http://busratanriverdi.com" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # should remain like his unless you want to provide the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "busratanriverdi/busratanriverdi.github.io"
 author:
   # Biographic information
   avatar           : "/images/profile.jpg"
-  name             : "Büşra Tanriverdi, Ph.D"
+  name             : "Büşra Tanrıverdi, Ph.D"
   pronouns         : # example: "she/her"  
   bio              : "Scientist | Cognitive Neuroscience"
   location         : # "Philadelphia"

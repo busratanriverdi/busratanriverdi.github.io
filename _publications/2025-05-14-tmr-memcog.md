@@ -1,6 +1,6 @@
 ---
 title: "Awake targeted memory reactivation doesn't work"
-authors: "Linda J Hoffman, Julia M Foley, <strong>Büşra Tanriverdi</strong>, Jason M Chein, & Ingrid R Olson"
+authors: "Linda J Hoffman, Julia M Foley, <strong>Büşra Tanrıverdi</strong>, Jason M Chein, & Ingrid R Olson"
 collection: publications
 category: manuscripts
 year: "2025"

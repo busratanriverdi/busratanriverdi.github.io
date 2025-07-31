@@ -1,6 +1,6 @@
 ---
 title: "Characterizing Threat's Influence in Post-Encoding Reactivation and Its Downstream Consequences on Memory Representations"
-authors: "Büşra Tanriverdi"
+authors: "Büşra Tanrıverdi"
 collection: publications
 category: manuscripts
 year: "2024"
