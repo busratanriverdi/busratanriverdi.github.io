@@ -22,7 +22,7 @@ repository               : "busratanriverdi/busratanriverdi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "/images/profile.jpg"
   name             : "Büşra Tanriverdi, Ph.D"
   pronouns         : # example: "she/her"  
   bio              : "Scientist | Cognitive Neuroscience"
