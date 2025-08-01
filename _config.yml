@@ -27,8 +27,10 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Scientist | Cognitive Neuroscience"
   location         : # "Philadelphia"
-  employer         : "PennSIVE"
-  uri              : "https://dbei.med.upenn.edu/center-of-excellence/pennsive/" # URL
+  employer         : >
+    Penn Statistics in Imaging and 
+    Visualization Endeavor (PennSIVE)
+  uri              : # URL
   email            : "busra.tanriverdi@gmail.com" 
 
   # Academic websites
