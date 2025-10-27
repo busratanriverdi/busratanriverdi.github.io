@@ -19,4 +19,4 @@ order: 1
 
 
 ## Service
-* Ad-Hoc Reviewer: PLOS One
+* Ad-Hoc Reviewer: PLOS One, Scientific Reports
